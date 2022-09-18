@@ -1,6 +1,46 @@
 {
-    "editor.formatOnSave": true,
-    "[prisma]": {
-        "editor.defaultFormatter": "Prisma.prisma"
-    },
+  "npm.packageManager": "yarn",
+
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.format.enable": true,
+  "eslint.debug": true,
+  "eslint.options": {
+    "overrideConfigFile": ".eslintrc.js",
+    "extensions": [
+      ".js",
+      ".ts",
+      ".tsx"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "prettier.enable": true,
+  "prettier.configPath": ".prettierrc.js",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
 }
