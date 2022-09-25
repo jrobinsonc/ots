@@ -21,7 +21,7 @@ export interface GenericResponseOutput<
 /**
  * Functional Component: with children.
  */
-export type FC<Props = Record<string, unknown>> = BaseFC<
+export type FC<Props = Record<string, never>> = BaseFC<
   PropsWithChildren<Props>
 >;
 
@@ -30,4 +30,4 @@ export type FC<Props = Record<string, unknown>> = BaseFC<
  *
  * The original `React.VFC` is now deprecated.
  */
-export type VFC<Props = Record<string, unknown>> = BaseFC<Props>;
+export type VFC<Props = Record<string, never>> = BaseFC<Props>;
