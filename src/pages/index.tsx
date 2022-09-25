@@ -55,7 +55,9 @@ const Home: Page = () => {
   return (
     <form onSubmit={onSubmit}>
       <textarea name="secret"></textarea>
-      <button type="submit" className="btn btn-primary">Submit</button>
+      <button type="submit" className="btn btn-primary">
+        Submit
+      </button>
     </form>
   );
 };
