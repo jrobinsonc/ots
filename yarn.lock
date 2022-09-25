@@ -728,6 +728,11 @@ bignumber.js@^9.0.0:
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.1.0.tgz#8d340146107fe3a6cb8d40699643c302e8773b62"
   integrity sha512-4LwHK4nfDOraBCtst+wOWIHbu1vhvAPJK8g8nROd4iuc3PSEjWif/qwbkh8jwCJz6yDBvtU4KPynETgrfh7y3A==
 
+bootstrap@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.1.tgz#45f97ff05cbe828bad807b014d8425f3aeb8ec3a"
+  integrity sha512-UQi3v2NpVPEi1n35dmRRzBJFlgvWHYwyem6yHhuT6afYF+sziEt46McRbT//kVXZ7b1YUYEVGdXEH74Nx3xzGA==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"

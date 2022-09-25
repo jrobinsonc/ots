@@ -1,6 +1,7 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import type { FC, Page } from 'src/types';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   const pageTitle: string | undefined = (Component as Page)?.pageTitle;
