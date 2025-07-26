@@ -443,15 +443,12 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
-"@types/node@*", "@types/node@>=12.12.47", "@types/node@>=13.7.0":
-  version "18.7.21"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.21.tgz#63ee6688070e456325b6748dc492a7b948593871"
-  integrity sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==
-
-"@types/node@18.7.18":
-  version "18.7.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.18.tgz#633184f55c322e4fb08612307c274ee6d5ed3154"
-  integrity sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==
+"@types/node@*", "@types/node@24.1.0", "@types/node@>=12.12.47", "@types/node@>=13.7.0":
+  version "24.1.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.1.0.tgz#0993f7dc31ab5cc402d112315b463e383d68a49c"
+  integrity sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==
+  dependencies:
+    undici-types "~7.8.0"
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -2749,6 +2746,11 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+undici-types@~7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.8.0.tgz#de00b85b710c54122e44fbfd911f8d70174cd294"
+  integrity sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==
 
 uri-js@^4.2.2:
   version "4.4.1"
